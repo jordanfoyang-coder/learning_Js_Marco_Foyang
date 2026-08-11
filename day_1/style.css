@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+body {
+    font-family: arial, sans-serif;
+    background: #f7f7f7;
+    color: #444;
+}
+nav{
+    background: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+}
+nav h2{
+    color:#333;
+}
+nav span {
+    color: #e5b52f;
+}
+nav a {
+    text-decoration:none;
+    color:#555;
+    margin-left: 20px;
+}
+.hero {
+    text-align: center;
+    padding: 90px 20px;
+    background: #eee6d2;
+}
+.hero h1{
+    font-size: 42px;
+    color:#333;
+}
+.hero p{
+    margin: 15px;
+    font-size: 18px;
+}
+button {
+    background: #e5b52f;
+    color:white ;
+    border: none;
+    padding:12px 22px;
+    border-radius: 5px;
+}
+{.properties 
+    texte-aling:center;
+    padding:45px 8%;
+}
+.properties h2 {
+    margin-bottom: 25px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    background: white;
+    padding:25px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #ccc;
+}
+.card p {
+    margin: 15px 0;
+    color:#888;
+}
+.card strong {
+    color: #e5b52f;
+}
+
+.properties-card {
+    width:250px;
+    background:white;
+    border-radius: 8px;
+    overflow:hidden;
+    box-shadow:0 2px 8px  #ccc;
+}
+.properties-card h3 {
+    margin: 12px 15px 5px;
+}
+.property-card p{
+    margin:5px 15px;
+}
+    .property-card strong{
+        display:block;
+        margin:10px 15px;
+        color: #d99a35;
+    }
+.property-card img {
+    width: 250px;
+    height:150px;
+    object-fit: cover;
+    display:block;
+}
+.property-card img {
+    width:250px;
+    height: 150px;
+    object-fit: cover;
+    dispay:block;
+}
